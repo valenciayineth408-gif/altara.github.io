@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ALTARA — Bolsos de lujo artesanal hechos en Colombia. Luxury, Recrafted in Colombia." />
+  <meta property="og:title" content="ALTARA — Luxury, Recrafted in Colombia" />
+  <meta property="og:description" content="Piezas hechas en talleres colombianos. Diseñadas para el mundo." />
+  <title>ALTARA — Luxury, Recrafted in Colombia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Jost:wght@200;300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ░░ CURSOR PERSONALIZADO ░░ -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- ░░ NAVEGACIÓN ░░ -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav__logo" aria-label="ALTARA inicio">
+      <span class="nav__logo-text">ALTARA</span>
+      <span class="nav__logo-sub">Colombia</span>
+    </a>
+    <div class="nav__links">
+      <a href="#coleccion" class="nav__link">Colección</a>
+      <a href="#captura" class="nav__link nav__link--cta">Acceso Privado</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ░░ 01 · HERO ░░ -->
+    <section class="hero" id="hero" aria-label="Presentación ALTARA">
+      <div class="hero__bg">
+        <div class="hero__texture"></div>
+        <div class="hero__grain"></div>
+      </div>
+
+      <div class="hero__content">
+        <div class="hero__edition reveal-up">
+          <span class="label">Temporada I</span>
+          <span class="label-divider">·</span>
+          <span class="label">Colección Fundacional</span>
+        </div>
+
+        <h1 class="hero__headline reveal-up" style="--delay: 0.15s">
+          Luxury,<br />
+          <em>Recrafted</em><br />
+          in Colombia.
+        </h1>
+
+        <p class="hero__sub reveal-up" style="--delay: 0.3s">
+          Piezas hechas en talleres colombianos.<br />
+          Diseñadas para el mundo.
+        </p>
+
+        <div class="hero__cta-wrap reveal-up" style="--delay: 0.45s">
+          <a href="#captura" class="btn btn--primary">Solicitar acceso</a>
+        </div>
+      </div>
+
+      <div class="hero__scroll-indicator" aria-hidden="true">
+        <span class="hero__scroll-line"></span>
+        <span class="hero__scroll-label">scroll</span>
+      </div>
+
+      <div class="hero__image-wrap">
+        <div class="hero__image editorial-img" style="background-image: url('https://picsum.photos/seed/altara1/900/1200')"></div>
+      </div>
+    </section>
+
+    <!-- ░░ 02 · MANIFIESTO ░░ -->
+    <section class="manifiesto section" id="manifiesto" aria-label="Manifiesto de marca">
+      <div class="container container--narrow">
+        <div class="manifiesto__num reveal-left">02</div>
+        <blockquote class="manifiesto__quote reveal-up">
+          <p>"No fabricamos en masa.<br />Creamos en silencio,<br /><em>con manos que conocen el tiempo."</em></p>
+        </blockquote>
+        <div class="manifiesto__body reveal-up" style="--delay: 0.2s">
+          <p>Colombia no es solo origen. Es técnica acumulada por generaciones, es el olor del cuero curtido en Bogotá, es la precisión de artesanos que nunca aprendieron a tener prisa.</p>
+          <p>ALTARA no vende bolsos. Eleva objetos cotidianos a piezas de culto contemporáneo.</p>
+        </div>
+        <div class="manifiesto__mark reveal-up" style="--delay: 0.3s">
+          <span>— Hecho en Colombia para el mundo</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 03 · COLECCIÓN ░░ -->
+    <section class="coleccion section" id="coleccion" aria-label="Colección curada">
+      <div class="container">
+        <header class="section-header reveal-up">
+          <span class="section-label">Colección</span>
+          <h2 class="section-title">Piezas Fundacionales</h2>
+          <p class="section-sub">Producción limitada. Sin reposición.</p>
+        </header>
+
+        <div class="coleccion__grid">
+
+          <!-- Pieza 01 -->
+          <article class="pieza reveal-up" style="--delay: 0s">
+            <div class="pieza__image-wrap">
+              <div class="pieza__image editorial-img" style="background-image: url('https://picsum.photos/seed/bolso1/600/750')"></div>
+              <div class="pieza__overlay">
+                <a href="#captura" class="btn btn--ghost">Ver pieza</a>
+              </div>
+              <span class="pieza__edition-tag">Ed. 01 / 40</span>
+            </div>
+            <div class="pieza__info">
+              <span class="pieza__num">001</span>
+              <h3 class="pieza__name">La Silenciosa</h3>
+              <p class="pieza__story">Cuero curtido vegetal de Bogotá. Costuras manuales. Forro en seda colombiana. Una pieza que no necesita presentarse.</p>
+              <div class="pieza__footer">
+                <span class="pieza__price">Precio bajo solicitud</span>
+                <a href="#captura" class="pieza__cta">Reservar →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Pieza 02 -->
+          <article class="pieza pieza--featured reveal-up" style="--delay: 0.15s">
+            <div class="pieza__image-wrap">
+              <div class="pieza__image editorial-img" style="background-image: url('https://picsum.photos/seed/bolso2/600/800')"></div>
+              <div class="pieza__overlay">
+                <a href="#captura" class="btn btn--ghost">Ver pieza</a>
+              </div>
+              <span class="pieza__edition-tag">Ed. 01 / 25</span>
+            </div>
+            <div class="pieza__info">
+              <span class="pieza__num">002</span>
+              <h3 class="pieza__name">Carta Nocturna</h3>
+              <p class="pieza__story">Inspirada en los carteros del Chocó. Cuero negro mate envejecido a mano, herrajes en bronce oxidado. Edición más exclusiva de la temporada.</p>
+              <div class="pieza__footer">
+                <span class="pieza__price">Precio bajo solicitud</span>
+                <a href="#captura" class="pieza__cta">Reservar →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Pieza 03 -->
+          <article class="pieza reveal-up" style="--delay: 0.3s">
+            <div class="pieza__image-wrap">
+              <div class="pieza__image editorial-img" style="background-image: url('https://picsum.photos/seed/bolso3/600/750')"></div>
+              <div class="pieza__overlay">
+                <a href="#captura" class="btn btn--ghost">Ver pieza</a>
+              </div>
+              <span class="pieza__edition-tag">Ed. 01 / 30</span>
+            </div>
+            <div class="pieza__info">
+              <span class="pieza__num">003</span>
+              <h3 class="pieza__name">Alba Cruda</h3>
+              <p class="pieza__story">Cuero natural sin teñir, con la textura que el animal dejó. Cada pieza es única. No hay dos iguales. No habrá segunda edición.</p>
+              <div class="pieza__footer">
+                <span class="pieza__price">Precio bajo solicitud</span>
+                <a href="#captura" class="pieza__cta">Reservar →</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="coleccion__footer reveal-up">
+          <p class="coleccion__note">Todas las piezas son numeradas e incluyen certificado de autenticidad firmado por el artesano.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 04 · ARTESANÍA / ORIGEN ░░ -->
+    <section class="origen section" id="origen" aria-label="Artesanía y origen">
+      <div class="origen__layout">
+        <div class="origen__images">
+          <div class="origen__img origen__img--1 reveal-left">
+            <div class="editorial-img" style="background-image: url('https://picsum.photos/seed/manos1/500/600')"></div>
+          </div>
+          <div class="origen__img origen__img--2 reveal-up" style="--delay: 0.2s">
+            <div class="editorial-img" style="background-image: url('https://picsum.photos/seed/cuero1/400/500')"></div>
+          </div>
+        </div>
+
+        <div class="origen__content reveal-right">
+          <span class="section-label">Origen</span>
+          <h2 class="section-title">Colombia,<br /><em>taller del mundo.</em></h2>
+          <p class="origen__text">Cada pieza pasa por manos expertas en Colombia, donde la técnica se transmite, no se industrializa.</p>
+          <p class="origen__text">Trabajamos con cuatro talleres familiares en Bogotá y Medellín. Ninguno fabrica más de 80 piezas al año. Esa es la condición.</p>
+          <ul class="origen__list" aria-label="Características del proceso">
+            <li>
+              <span class="origen__list-num">—</span>
+              <span>Cuero colombiano certificado, curtido al vegetal</span>
+            </li>
+            <li>
+              <span class="origen__list-num">—</span>
+              <span>Mínimo 18 horas de trabajo manual por pieza</span>
+            </li>
+            <li>
+              <span class="origen__list-num">—</span>
+              <span>Sin subcontratación. Sin procesos industriales.</span>
+            </li>
+            <li>
+              <span class="origen__list-num">—</span>
+              <span>Garantía vitalicia de reparación artesanal</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 05 · EXCLUSIVIDAD ░░ -->
+    <section class="exclusividad section" id="exclusividad" aria-label="Modelo de exclusividad">
+      <div class="exclusividad__bg"></div>
+      <div class="container container--narrow">
+        <div class="exclusividad__inner">
+          <span class="section-label section-label--light reveal-up">Acceso</span>
+          <h2 class="section-title section-title--light reveal-up" style="--delay: 0.1s">
+            No para todos.<br /><em>Para los que entienden.</em>
+          </h2>
+
+          <div class="exclusividad__pillars">
+            <div class="pilar reveal-up" style="--delay: 0s">
+              <span class="pilar__num">I</span>
+              <h3 class="pilar__title">Ediciones Numeradas</h3>
+              <p class="pilar__text">Cada pieza lleva grabado su número de edición y el año de creación. El artesano la firma.</p>
+            </div>
+            <div class="pilar reveal-up" style="--delay: 0.15s">
+              <span class="pilar__num">II</span>
+              <h3 class="pilar__title">Sin Descuentos. Jamás.</h3>
+              <p class="pilar__text">El precio es el precio. No hay temporadas, no hay liquidaciones. Hay piezas disponibles o no las hay.</p>
+            </div>
+            <div class="pilar reveal-up" style="--delay: 0.3s">
+              <span class="pilar__num">III</span>
+              <h3 class="pilar__title">Acceso por Lista</h3>
+              <p class="pilar__text">Cuando una nueva edición se produce, los primeros en saberlo son quienes están en nuestra lista. Solo ellos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 06 · SOCIAL PROOF ░░ -->
+    <section class="testimonios section" id="testimonios" aria-label="Testimonios y prensa">
+      <div class="container">
+        <header class="section-header reveal-up">
+          <span class="section-label">Voz del mundo</span>
+          <h2 class="section-title">Lo que dicen.</h2>
+        </header>
+
+        <div class="testimonios__grid">
+          <blockquote class="testimonio reveal-up" style="--delay: 0s">
+            <p class="testimonio__text">"Feels like European luxury, but more soulful. There's a story in every stitch."</p>
+            <footer class="testimonio__author">
+              <span class="testimonio__name">— C. Delacroix</span>
+              <span class="testimonio__loc">París, Francia</span>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonio reveal-up" style="--delay: 0.15s">
+            <p class="testimonio__text">"I've carried bags from Bottega and Loewe. ALTARA belongs in that same breath. Maybe ahead of it."</p>
+            <footer class="testimonio__author">
+              <span class="testimonio__name">— M. Okonkwo</span>
+              <span class="testimonio__loc">Lagos / Londres</span>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonio reveal-up" style="--delay: 0.3s">
+            <p class="testimonio__text">"Lo que me sorprendió no fue el diseño. Fue darme cuenta de que no quería soltar el bolso."</p>
+            <footer class="testimonio__author">
+              <span class="testimonio__name">— S. Camacho</span>
+              <span class="testimonio__loc">Ciudad de México</span>
+            </footer>
+          </blockquote>
+        </div>
+
+        <!-- Visto en -->
+        <div class="visto-en reveal-up">
+          <p class="visto-en__label">Visto en</p>
+          <div class="visto-en__logos" aria-label="Medios que mencionaron a ALTARA">
+            <span class="visto-en__logo">Vogue Latinoamérica</span>
+            <span class="visto-en__sep">·</span>
+            <span class="visto-en__logo">Elle Colombia</span>
+            <span class="visto-en__sep">·</span>
+            <span class="visto-en__logo">WSJ Magazine</span>
+            <span class="visto-en__sep">·</span>
+            <span class="visto-en__logo">Monocle</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 07 · CAPTURA ░░ -->
+    <section class="captura section" id="captura" aria-label="Formulario de lista de espera">
+      <div class="captura__bg"></div>
+      <div class="container container--narrow">
+        <div class="captura__inner">
+          <span class="section-label section-label--light reveal-up">Lista de Espera</span>
+          <h2 class="captura__title section-title section-title--light reveal-up" style="--delay: 0.1s">
+            Únete al<br /><em>acceso privado.</em>
+          </h2>
+          <p class="captura__sub reveal-up" style="--delay: 0.2s">
+            No enviamos newsletters. No vendemos datos.<br />Solo te avisamos cuando hay algo digno de tu atención.
+          </p>
+
+          <div class="captura__form-wrap reveal-up" style="--delay: 0.3s">
+            <div class="captura__form" id="capturaForm" novalidate>
+              <div class="input-group">
+                <label for="email" class="input-label">Correo electrónico</label>
+                <input type="email" id="email" name="email" class="input-field" placeholder="tu@correo.com" required autocomplete="email" />
+              </div>
+              <div class="input-group">
+                <label for="whatsapp" class="input-label">WhatsApp <span class="input-optional">(opcional)</span></label>
+                <input type="tel" id="whatsapp" name="whatsapp" class="input-field" placeholder="+57 300 000 0000" autocomplete="tel" />
+              </div>
+              <button type="button" class="btn btn--primary btn--full" id="submitBtn">
+                Solicitar acceso privado
+              </button>
+            </div>
+
+            <!-- Estado de confirmación -->
+            <div class="captura__confirm" id="capturaConfirm" aria-live="polite" hidden>
+              <div class="captura__confirm-icon" aria-hidden="true">✦</div>
+              <p class="captura__confirm-title">Bienvenido a ALTARA.</p>
+              <p class="captura__confirm-sub">Tu solicitud fue recibida. Cuando la próxima edición esté lista, serás el primero en saberlo.</p>
+            </div>
+          </div>
+
+          <p class="captura__disclaimer reveal-up" style="--delay: 0.4s">
+            Producción Temporada I — <em>Disponibilidad limitada a 95 piezas</em>
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="footer__logo">ALTARA</span>
+          <span class="footer__tagline">Luxury, Recrafted in Colombia.</span>
+        </div>
+        <div class="footer__info">
+          <p>© <span id="year"></span> ALTARA. Todos los derechos reservados.</p>
+          <p>Bogotá, Colombia — Para el mundo.</p>
+        </div>
+      </div>
+      <div class="footer__line" aria-hidden="true"></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
